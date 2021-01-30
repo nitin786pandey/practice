@@ -1,17 +1,32 @@
 #include<iostream>
 using namespace std;
+
 int main ()
 {
 	int sum;
-	
-	cout<<"Hello World \n";
-	cin>>sum;
-	int i;
-	i=0;
-	for (i=0;1<10;i++)
+	int str;
+	cin>>str;
+	int d;
+	if (str==1)
 	{
-		sum=sum+i;
+		int d=11;
+	
 	}
-    cout<<"Hello World \n" <<sum;
-   	
+	else if (str==2)
+	{
+		int d=12;
+	
+	}
+    
+   	cout<<d;
+}
+int add(int a,int b)
+{
+	
+	return a+b;
+}
+int sub(int a,int b)
+{
+
+	return a-b;
 }
